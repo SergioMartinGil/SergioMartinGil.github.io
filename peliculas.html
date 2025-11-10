@@ -3,49 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sixtyfour&display=swap" rel="stylesheet">
     <title>Películas</title>
     <style>
+        body{
+            margin: auto;
+            width: 80%;
+        }
+        h1{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
         li{
             display: inline-block;
+            width: calc(100%/9);
+            text-align: center;
+            padding: 10px 0;
+            font-size: 16px;
+            float: left;
+        }
+        main{
+            text-align: center;
+        }
+        article{
+            width: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            padding: 20px;
+            font-size: 14px;
+            vertical-align: top;
+        }
+        p{
+            font-size: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>PELÍCULAS</h1>
+        <a href="index.html">Página anterior</a><h1>PELÍCULAS</h1>
         <nav>
             <ol>
-                <li><a href="#Episodio 1">Episodio I</a></li>
-                <li><a href="#Episodio 2">Episodio II</a></li>
-                <li><a href="#Episodio 3">Episodio III</a></li>
-                <li><a href="#Episodio 4">Episodio IV</a></li>
-                <li><a href="#Episodio 5">Episodio V</a></li>
-                <li><a href="#Episodio 6">Episodio VI</a></li>
-                <li><a href="#Episodio 7">Episodio VII</a></li>
-                <li><a href="#Episodio 8">Episodio VIII</a></li>
-                <li><a href="#Episodio 9">Episodio IX</a></li>
+                <li><a href="#Episodio1">Episodio I</a></li>
+                <li><a href="#Episodio2">Episodio II</a></li>
+                <li><a href="#Episodio3">Episodio III</a></li>
+                <li><a href="#Episodio4">Episodio IV</a></li>
+                <li><a href="#Episodio5">Episodio V</a></li>
+                <li><a href="#Episodio6">Episodio VI</a></li>
+                <li><a href="#Episodio7">Episodio VII</a></li>
+                <li><a href="#Episodio8">Episodio VIII</a></li>
+                <li><a href="#Episodio9">Episodio IX</a></li>
             </ol>
         </nav>
     </header>
     <main>
-        <p id="Episodio 1">Episodio I</p>
+        <section>
+        <article><p id="Episodio1">Episodio I</p>
         <img src="Imagenes/starwars1.jpg" alt="" width="220px">
-        <p id="Episodio 2">Episodio II</p>
+        </article><article><p id="Episodio2">Episodio II</p>
         <img src="Imagenes/starwars2.jfif" alt="" width="220px">
-        <p id="Episodio 3">Episodio III</p>
+        </article><article><p id="Episodio3">Episodio III</p>
         <img src="Imagenes/starwars3.jpg" alt="" width="220px">
-        <p id="Episodio 4">Episodio IV</p>
+        </article><article><p id="Episodio4">Episodio IV</p>
         <img src="Imagenes/starwars4.jpg" alt="" width="220px">
-        <p id="Episodio 5">Episodio V</p>
+        </article><article><p id="Episodio5">Episodio V</p>
         <img src="Imagenes/starwars5.jpg" alt="" width="220px">
-        <p id="Episodio 6">Episodio VI</p>
+        </article><article><p id="Episodio6">Episodio VI</p>
         <img src="Imagenes/starwars6.jfif" alt="" width="225px">
-        <p id="Episodio 7">Episodio VII</p>
+        </article><article><p id="Episodio7">Episodio VII</p>
         <img src="Imagenes/starwars7.jpg" alt="" width="225px">
-        <p id="Episodio 8">Episodio VIII</p>
+        </article><article><p id="Episodio8">Episodio VIII</p>
         <img src="Imagenes/starwars8.jpg" alt="" width="225px">
-        <p id="Episodio 9">Episodio IX</p>
-        <img src="Imagenes/starwars9.jpg" alt="" width="225px">
+        </article><article><p id="Episodio9">Episodio IX</p>
+        <img src="Imagenes/starwars9.jpg" alt="" width="225px"></article>
+        </section>
     </main>
 </body>
 </html>
